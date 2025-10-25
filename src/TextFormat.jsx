@@ -20,7 +20,8 @@ const TextFormat = () => {
         type="text"
         onInput={handleInput}
         placeholder="Type something..."
-        className="border p-2 rounded"
+        className="border p-2 rounded
+        focus:outline-sky-500 w-[300px]"
       />
       <span className="ml-3">{lowerText}</span>
     </div>
