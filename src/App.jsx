@@ -12,7 +12,7 @@ function App() {
     <div>
       <Home />
       <Counter/>
-      <input type="checkbox" className="" />
+      <input type="checkbox"/>
     </div>
     <TextFormat/>
     <Footer/>

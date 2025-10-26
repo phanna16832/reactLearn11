@@ -8,24 +8,18 @@ const TextFormat = () => {
     setLowerText(value);
   };
 
-  const [id,setId] = useState("");
-  const findId = (event) =>{
-    
-  } 
 
 
   return (
-    <div className="p-4">
+    <div className="p-4 space-x-3">
       <input
         type="text"
         onInput={handleInput}
         placeholder="Type something..."
-        className="border p-2 rounded
-        focus:outline-sky-500 w-[300px]"
+        className="border p-2 rounded focus:outline-sky-500 w-[300px]"
       />
-      <span className="ml-3">{lowerText}</span>
-    </div>
-  );
-};
+      <span>{lowerText}</span>
+       </div>
+  );};
 
 export default TextFormat;
